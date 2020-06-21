@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/layout_game"
+    android:background="#fefefefe">
+    
+<!--      <com.yanwind.panta.SingleSurface
+        android:id="@+id/panta"
+        android:layout_centerInParent="true"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"/> -->
+        
+<!-- 	<com.yanwind.panta.DoubleSurface
+        android:id="@+id/panta"
+        android:layout_centerInParent="true"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"/> -->
+    
+    <Button
+        android:id="@+id/button_setting"
+        android:layout_marginLeft="15dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_return"/>
+      
+    <Button
+        android:id="@+id/button_reload"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/button_reload"/>
+ 
+    <Button
+        android:id="@+id/button_sound"
+        android:layout_marginRight="15dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_sound_on"/>
+    
+</RelativeLayout>
